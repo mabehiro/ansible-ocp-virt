@@ -37,7 +37,7 @@
                 #cloud-config
                 # The default username is: fedora
                 ssh_authorized_keys:
-                - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCc7QLJk9xxhPAKx+IVjCJEboHwmU03gVi0YSMdSiga3BjGxJ5LWedJzbClgAGwd1hqZBoB00ALZyjSZ+Zsbr0uu1kEtbYPBHWKkVIpYlBQ6Pohz2QlDPJrR5GKTdOx/ugUTyJGVcoutab5WxbpNLAscbdyjNdPmGJYMozYVtTIoGATWj1TlqOsNcmriev5jY4FLNCLtkcAxPkqVcYvS7CL9tvurfY4Ua63THV0ZWqFd3MCWX3Z1fYlDw3cREBOx5AsehvZqk9QhRg14LPw1LNirxurogEt7Xz1uBNSQZS0YvpCHhdYwf1BbOlc7vqoM0qgyjN4Ub7j6vf89IyKpcfWbJ7o2yuFMx3uyTmj56FJMO6C57c7gdii7xIA8m9GGnvSgh61eVtxOQeW3A3/1LZeFuyW9FLhzsx2/ZaV0irl+9r4eCVOLUcnTbvlEfXgD0nTzulV98i10+SiODsZ7rEgVx65aRUlrjVTsJMqn+6bKkc2PsdpXBajj5hQOt3k0Bc=
+                - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD2Sh84/z9jj4Neg4xI3jlPO6C8sLdz3ykJjo+vD+WveOSBql2LiJ1k4z/AcBC55/ZPfZt6oK1pqtHYTIcZLobH7ApHvRSdsDmVgh67u/Lx5XMZ5ct6O9jC+lp98vNjGP5c9Zfcn1zIzcPATleOS52ubGQJA58ryuckoEq6TyyfvcHjUMNBv7AULDQ68syv0i9tuS+SH9cUgaEQGHsTyL9wA5fudh2JpLMvZigE0KqAwP/Z91QLyMFZsuxoy7x0CFBFym4miXiF7gVSpYsJxcUbb6qRSeHi4PGhNBm3IytRcbTOrwcdCx2E2uiyuWliC85NtMslQHYy+8eXcUavSW3GZnxgjenUnaNAIhQ1GQdUAdRmsLCzRehzBi/i3mc4ZgkhODQHacCg14RKj7c5GgyAh3b/6M9D43sqrjZa2vH1+RwID9wgWngVjJmy/RZ3tIhT94GKUn4/AWfAUpAtM1c3C1sxqRFTk6Q9otYm1Qq95/V0ewBQnbuzkpJSlCjtNqM= mabe@mabe.remote.csb
             name: cloudinit
   
   - name: Wait for virtual machine IP to be populated
