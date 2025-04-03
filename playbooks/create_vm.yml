@@ -1,8 +1,4 @@
 - hosts: all  # Target all hosts in your inventory
-  collections:
-  - name: redhat.openshift
-  - name: redhat.openshift_virtualization
-  - name: kubernetes.core
   tasks:
   - name: Create project
     redhat.openshift.k8s:
